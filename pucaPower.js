@@ -227,7 +227,7 @@ var pucaPower = {
         );
 
         // Don't be a menace
-        if ( this.reloadInterval < 20 ) { this.reloadInterval = 20; }
+        if ( this.reloadInterval < 5 ) { this.reloadInterval = 5; }
 
         // TODO: maxPages
 
